@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+  background-color: rgb(234, 237, 237);
+}
 .header {
   background-color: #131921;
   display: flex;
