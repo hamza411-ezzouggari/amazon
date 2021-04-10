@@ -3,9 +3,10 @@ import { useStateValue } from "./StateProvider";
 import CheckoutProduct from "./CheckoutProduct";
 function Checkout() {
   const [{ basket }] = useStateValue();
+  console.log(basket);
   return (
     <div className="Checkout">
-      {basket?.length === 0 ? (
+      {basket.length === 0 ? (
         <div>
           <h2>Your Shopping basket is empty</h2>
         </div>
